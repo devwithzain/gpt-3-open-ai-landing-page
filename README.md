@@ -1,4 +1,4 @@
-# GPT-3-App
+# GPT-3 Open AI
 
 GPT-3 Application is a modern UI/UX Landing Page Build with Next JS and CSS.
 
