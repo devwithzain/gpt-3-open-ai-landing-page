@@ -1,10 +1,7 @@
-import Image from 'next/image';
-import './Article.scss';
-interface ArticleProps {
-    imgUrl: string | any;
-    date: string;
-    title: string;
-}
+import Image from "next/image";
+import "./Article.scss";
+import { ArticleProps } from "@types";
+
 const Article: React.FC<ArticleProps> = ({ imgUrl, date, title }) => {
     return (
         <>

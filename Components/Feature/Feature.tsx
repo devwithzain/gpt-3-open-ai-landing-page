@@ -1,8 +1,6 @@
+import { FeatureProps } from "@types";
 import "./Feature.scss";
-interface FeatureProps {
-    title: string;
-    text: string;
-}
+
 const Feature: React.FC<FeatureProps> = ({ title, text }) => {
     return (
         <>

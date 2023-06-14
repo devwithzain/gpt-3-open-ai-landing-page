@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import "./Navbar.scss";
 // ICONS
@@ -6,23 +6,24 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 // ASSETS
 import logo from "@public/logo.svg";
 import Image from "next/image";
+import Link from "next/link";
 const Navbar: React.FC = () => {
     const Menu = () => (
         <>
             <p>
-                <a href="#home">Home</a>
+                <Link href="#home">Home</Link>
             </p>
             <p>
-                <a href="#wgpt3">What is GPT3?</a>
+                <Link href="#wgpt3">What is GPT3?</Link>
             </p>
             <p>
-                <a href="#possibility">Open AI</a>
+                <Link href="#possibility">Open AI</Link>
             </p>
             <p>
-                <a href="#features">Case Study</a>
+                <Link href="#features">Case Study</Link>
             </p>
             <p>
-                <a href="#blog">Library</a>
+                <Link href="#blog">Library</Link>
             </p>
         </>
     );
